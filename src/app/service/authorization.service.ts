@@ -3,8 +3,8 @@ import { Observable } from 'rxjs';
 import { CognitoUserPool, CognitoUser, AuthenticationDetails, CognitoUserAttribute } from 'amazon-cognito-identity-js';
 
 const poolData = {
-  UserPoolId:'eu-west-3_2BeLe7hb8',
-  ClientId:'1di5ndh2gfn2j46jsg3sth47rq'
+  UserPoolId:'eu-west-3_2BeLe7hb8', //à adapter !!
+  ClientId:'1di5ndh2gfn2j46jsg3sth47rq' // à adapter !!
 };
 
 const userPool = new CognitoUserPool(poolData);
